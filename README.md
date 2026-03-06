@@ -251,6 +251,8 @@ git pull upstream main
 git push origin main
 ```
 ___
+Детальна інструкція по - [Git](docs/git-cheatsheet.md)
+___
 # 🚀 Quick Start (Виконання завдань та тестів)
 
 ---
@@ -286,7 +288,7 @@ python3 start_course.py
 
 📖 Детальна інструкція з поясненням режимів роботи:
 
-👉 Відкрийте файл **SETUP.md**
+👉 Відкрийте файл [SETUP.md](SETUP.md)
 ---
 
 # 📚 Домашнє завдання
