@@ -1,12 +1,25 @@
 # Task 1
 
 import random
+# number = random.randint(1, 10)
+# guess = int(input("Guess a number between 1 and 10: "))
+# if guess == number:
+#     print("Correct! You guessed the number.")
+# else:
+#     print("Wrong. The number was", number)
+
+
 number = random.randint(1, 10)
-guess = int(input("Guess a number between 1 and 10: "))
-if guess == number:
-    print("Correct! You guessed the number.")
+guess = input("Guess a number between 1 and 10: ")
+
+if guess.isdigit():
+    guess = int(guess)
+    if guess == number:
+        print("Correct! You guessed the number.")
+    else:
+        print("Wrong. The number was", number)
 else:
-    print("Wrong. The number was", number)
+    print("Please enter a number.")
 
 # Task 2
 
